@@ -24,6 +24,7 @@ public class ExcelCode
 	{
 		Row r=sh.getRow(row);
 		Cell c=r.getCell(coloumn);
+		System.out.println("hai");
 		int celltype=c.getCellType();
 		
 				switch(celltype)
